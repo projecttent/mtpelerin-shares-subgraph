@@ -2,7 +2,7 @@
   "name": "mtpelerin-shares-subgraph",
   "version": "0.1.0",
   "scripts": {
-    "build-contract": "solc contracts/Gravity.sol --abi -o abis --overwrite && solc contracts/Gravity.sol --bin -o bin --overwrite",
+    "build-contract": "solc contracts/MPSToken.sol --abi -o abis --overwrite && solc contracts/MPSToken.sol --bin -o bin --overwrite",
     "create": "graph create projecttent/mtpelerin-shares-subgraph --node https://api.thegraph.com/deploy/",
     "create-local": "graph create projecttent/mtpelerin-shares-subgraph --node http://127.0.0.1:8020",
     "codegen": "graph codegen",
